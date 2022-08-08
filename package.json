@@ -1,0 +1,14 @@
+{
+  "name": "discord-bot-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discord Bot Template",
+  "author": "Tomsci",
+  "scripts": {
+    "start": "node index.js",
+    "register": "node index.js --register"
+  },
+  "dependencies": {
+    "discord.js": "^14.1.2"
+  }
+}
