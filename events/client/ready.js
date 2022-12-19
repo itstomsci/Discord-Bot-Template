@@ -1,11 +1,12 @@
 const {
-  Routes: { applicationCommands }
+  Routes: { applicationCommands },
+  Events: { ClientReady }
 } = require('discord.js');
 
 module.exports = {
   configuration: {
     once: false,
-    event: 'ready'
+    event: ClientReady
   },
   execute: ({ user: { username, id }, users, guilds, commands, rest }) => {
     const userSize = users.cache.size;
