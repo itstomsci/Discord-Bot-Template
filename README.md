@@ -11,10 +11,8 @@ A Discord Bot Template coded in JavaScript with Discord.js allows you to create 
 │   └── test.js
 ├── events
 │   └── client
-│       ├── disconnect.js
 │       ├── interaction.js
-│       ├── ready.js
-│       └── reconnecting.js
+│       └── ready.js
 ├── configuration.json
 ├── handlers.js
 ├── index.js
