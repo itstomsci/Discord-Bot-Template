@@ -1,11 +1,14 @@
-const { Collection } = require('discord.js');
+const {
+  Collection,
+  Events: { InteractionCreate }
+} = require('discord.js');
 
 const cooldowns = new Collection();
 
 module.exports = {
   configuration: {
     once: false,
-    event: 'interactionCreate'
+    event: InteractionCreate
   },
   execute: interaction => {
     if (!interaction.isChatInputCommand()) return;
