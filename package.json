@@ -9,6 +9,6 @@
     "register": "node index.js --register"
   },
   "dependencies": {
-    "discord.js": "^14.1.2"
+    "discord.js": "^14.7.1"
   }
 }
