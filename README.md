@@ -29,7 +29,3 @@ A Discord Bot Template coded in JavaScript with Discord.js allows you to create 
   }
 }
 ```
-
-## 📄 Licence
-
-[ISC License](https://github.com/itstomsci/Discord-Bot-Template/blob/master/LICENSE)
